@@ -1,0 +1,15 @@
+{
+    "name":         "ODE",
+    "version":      "0.1",
+    "description":  "Io bindings for ODE.",
+    "author":       "Jonathan Wright",
+    "website":      "http://iolanguage.org/",
+    "readme":       "README.md",
+    "protos":   [ "ODEBall", "ODEHinge", "ODEHinge2", "ODEJoint", "ODEJointGroup", "ODEMass", "ODESlider", "ODEUniversal", "ODEWorld", "ODEFixed", "ODESimpleSpace", "ODEPlane", "ODEBox", "ODEContact" ],
+    "dependencies": {
+        "libs":     ["ode"],
+        "headers":  [],
+        "protos":   [],
+        "packages": ["https://github.com/IoLanguage/OpenGL.git"]
+    }
+}
